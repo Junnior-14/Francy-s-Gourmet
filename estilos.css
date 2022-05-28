@@ -1,0 +1,178 @@
+*{
+	margin: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.padre{
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+	.header{
+		background: tan;
+		display: flex;
+		flex-flow: column nowrap;
+}
+		.menu{
+			background: #CD853F;
+			display: flex;
+			flex-flow: row nowrap;
+			height: 100px;
+			align-items: center;
+			
+		}
+			.logo{
+				background: #CD853F;
+				flex: 1 1 auto;
+				height: 100px;
+				align-content: left;
+				padding: 0%;
+				float: left;
+			}
+			.nav{
+				background: #CD853F;
+				flex: 5 1 auto;
+				height: 50px
+			}	
+				.btn1{
+				border: 2px solid	white;
+				padding: 3px 3px 3px 3px;
+				display: inline-block;
+				font: bold 3px sans-serif;
+				text-decoration: none;
+				color: #FFF;
+				background-color: #DEB887;
+
+				border-radius: 5px;
+				}	
+		    	.btn2{
+				border: 2px solid	white;
+				padding: 3px 3px 3px 3px;
+				display: inline-block;
+				font: bold 3px sans-serif;
+				text-decoration: none;
+				color: #FFF;
+				background-color: #DEB887;
+
+				border-radius: 5px;
+				}
+				.btn3{
+				border: 1px solid	white;
+				padding: 3px 3px 3px 3px;;
+				display: inline-block;
+				font: bold 13px sans-serif;
+				text-decoration: none;
+				color: #FFF;
+				background-color: #DEB887;
+
+				border-radius: 5px;
+				}
+				.btn4{
+				border: 1px solid	white;
+				padding: 3px 3px 3px 3px;
+				display: inline-block;
+				font: bold 3px sans-serif;
+				text-decoration: none;
+				color: #FFF;
+				background-color:#DEB887;
+
+				border-radius: 5px;
+				}
+	
+			.usuario{
+				background: #CD853F;
+				flex: 1 1 auto;
+				height: 50px;
+				float: right;
+			}
+		.texto-principal{
+			background: #CD853F;
+		}
+			.h1{
+				background: peru;
+				text-align-last: center;
+			}
+	.section{
+		background: #DEB887;
+		display: flex;
+	}
+		.articulos{
+			background: #8B4513;
+			flex: 2 1 auto;
+			display: flex;
+			flex-flow: row wrap;
+		}
+			.article{
+				background: #CD853F;
+				flex: 1 1 40%;
+			}
+			.img{
+				align-items: center;
+			}
+		.aside{
+			background: #CD853F;
+			flex: 1 1 0%;
+		}
+			.carrito{
+				background: #CD853F;
+			}
+			.map{
+				background: #CD853F;
+			}
+	.footer{
+		background: tan;
+		display: flex;
+		justify-content: center;
+	}
+		.calendario{
+			background: #CD853F;
+			align-items: center;
+			width: auto;
+			flex: 1 1 30%;
+		}
+		.pie{
+			background: #CD853F;
+			flex: 1 1 30%;
+		}	
+		.social{
+			background: #CD853F;
+			flex: 20%;
+		}
+@media all and (max-width:  800px){
+	.section{
+		flex-direction: column;
+	}
+	.menu{
+		flex-direction: column;
+		height: auto;
+	}
+	.aside{
+		display: flex;
+		justify-content: center;
+	}
+	.footer{
+		display: flex;
+		flex-direction: column;
+	}
+}
+@media all and (max-width: 600px){
+	.articulos{
+		flex-direction: column;
+	}
+	.footer{
+		display: flex;
+		flex-direction: column;
+	}
+}
+@media all and (max-width: 400px){
+	.aside{
+		flex-direction: column;
+	}
+	.footer{
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+
+

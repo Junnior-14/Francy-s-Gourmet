@@ -1,0 +1,368 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: cursive;
+	text-decoration-color:peru;
+	color: #CD853F;
+	box-sizing: border-box;
+	flex-flow: row wrap;
+ 
+}
+body{
+
+	background-color:#F5F5F5;
+	font-family: sans-serif;
+	padding: 10%;
+	flex-flow: row wrap;
+
+	}
+
+.menu{
+	display: flex;
+    }
+.menu p{
+	margin-right: 2rem;
+	cursor: pointer;
+}
+.content {	
+    margin-top: 2rem;
+     }
+     ´
+     ¨[data-content]{
+     	display: none;
+     }
+     .active[data-content]{
+     	display: block;
+     }
+      /* body{
+        background-color: lightgrey;
+        font-family: sans-serif;
+      } */
+      
+      .container{
+        margin: auto;
+        background-color: 	#CD853F;
+        width:820px;
+        padding: 10px;
+        border: 2px solid	white;
+        border-radius: 20px;
+
+      }
+      
+      ul, li {
+          padding:0;
+          margin: 0;
+          list-style: none;
+      }
+      
+      ul.slider{
+        position: relative;
+        width: 800px;
+        height: 300px;
+      }
+      
+      ul.slider li {
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          opacity: 0;
+          width: inherit;
+          height: inherit;
+          transition: opacity .5s;
+          background:#fff;
+      }
+      
+      ul.slider li img{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+      }
+      
+      ul.slider li:first-child {
+          opacity: 1; /Mostramos el primer <li>/
+      }
+      
+       ul.slider li:target {
+          opacity: 1; /Mostramos el <li> del enlace que pulsemos/
+      } 
+
+      
+      .menu1 {
+        text-align: center;
+        margin: 20px;
+      }
+      
+      .menu1 li{
+        display: inline-block;
+        text-align: center;
+      }
+      
+      .menu1 li a{
+        display: inline-block;
+        color: #CD853F;
+        text-decoration: none;
+        background-color: rgb(221, 145, 4);
+        padding: 10px;
+        width: 20px;
+        height: 20px;
+        font-size: 20px;
+        border-radius: 100%;
+      }
+      .seccion{
+		float:left;
+		width: 300px
+		padding:3px;
+		background-color:#CD853F;
+		position: relative;
+		margin: 32px; 
+	}
+	.btn1{
+		border: 1px solid	white;
+		padding: 3px 3px 3px 3px;
+		display: inline-block;
+		font: bold 3px sans-serif;
+		text-decoration: none;
+		color: #FFF;
+		background-color:#CD853F;
+
+		border-radius: 5px;
+	}	
+    .btn2{
+		border: 1px solid	white;
+		padding: 3px 3px 3px 3px;
+		display: inline-block;
+		font: bold 3px sans-serif;
+		text-decoration: none;
+		color: #FFF;
+		background-color: #FF7F50;
+
+		border-radius: 5px;
+	}
+	.btn3{
+		border: 1px solid	white;
+		padding: 3px 3px 3px 3px;;
+		display: inline-block;
+		font: bold 13px sans-serif;
+		text-decoration: none;
+		color: #FFF;
+		background-color: #FF7F50;
+
+		border-radius: 5px;
+	}
+	.btn4{
+		border: 1px solid	white;
+		padding: 3px 3px 3px 3px;
+		display: inline-block;
+		font: bold 3px sans-serif;
+		text-decoration: none;
+		color: #FFF;
+		background-color:#FF7F50;
+
+		border-radius: 5px;
+	}
+	.btn5{
+		border: 1px solid	white;
+		padding: 3px 3px 3px 3px;
+		display: inline-block;
+		font: bold 3px sans-serif;
+		text-decoration: none;
+		color: #FFF;
+		background-color: #FF7F50;
+
+		border-radius: 5px;
+	}
+	.btn6{
+		border: 1px solid	white;
+		padding: 3px 3px 3px 3px;
+		display: inline-block;
+		font: bold 3px sans-serif;
+		text-decoration: none;
+		color: #FFF;
+		background-color: #FF7F50;
+;
+		border-radius: 5px;
+	}
+	.btn7{
+		border: 1px solid	white;
+		padding: 3px 3px 3px 3px;
+		display: inline-block;
+		font: bold 3px sans-serif;
+		text-decoration: none;
+		color: #FFF;
+		background-color: #FF7F50;
+
+		border-radius: 5px;
+	}
+	.btn8{
+		border: 1px solid	white;
+		padding: 3px 3px 3px 3px;
+		display: inline-block;
+		font: bold 3px sans-serif;
+		text-decoration: none;
+		color: #FFF;
+		background-color: #FF7F50;
+
+		border-radius: 5px;
+	}
+	.btn9{
+		border: 1px solid	white;
+		padding: 3px 3px 3px 3px;
+		display: inline-block;
+		font: bold 3px sans-serif;
+		text-decoration: none;
+		color: #FFF;
+		background-color: #FF7F50;
+
+		border-radius: 5px;
+	}
+	
+	.texto-justificado{
+      text-align: justify;
+    }
+
+   .img {
+   	width: 80px;
+   	height: 80px;
+   	display: flex;
+   	flex: auto;
+   	align: right;
+		}
+
+  .container-form {
+ 		width: 90%;
+ 		height: 68vh;
+ 		display: flex;
+ 		justify-content: space-around;
+ 		transition: all .5s ease-out;
+ 		
+		}
+
+	.welcome-back {
+ 		display: flex;
+		align-items: center;
+		text-align: center;
+}
+
+	.message {
+  	padding: 1rem;
+}
+
+	.message h2 {
+	font-size: 1.7rem;
+ 	padding: 1rem 0;
+}
+
+.message button {
+ padding: 1rem;
+ font-weight: 200;
+ background-color: #CD853F;
+ border-radius: 2rem;
+ border : none;
+ outline: none;
+ cursor: pointer;
+ font-size: .9rem;
+ margin-top: 2rem;
+ transition: all .3s ease-in;
+ color: #fff;
+}
+
+.message button:hover {
+ background-color: #CD853F;
+}
+
+.formulario {
+ width: 400px;
+ padding: 1rem;
+ margin: 2rem;
+ background-color: rgb(222, 184, 135);
+ text-align: center;
+
+}
+
+.create-account {
+ padding: 2.7rem 0;
+ font-size: 1.7rem;
+}
+
+.iconos {
+ width: 200px;
+ display: flex;
+ justify-content: space-around;
+ margin: auto;
+}
+
+.border-icon {
+ width: 20px;
+ height: 20px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding: 1.1rem;
+ border: solid thin peru;
+ border-radius: 50%;
+ font-size: 1.5rem;
+ transition: all .3s ease-in;
+}
+
+.border-icon:hover {
+ background-color: #FFDAB9;
+ cursor: pointer;
+}
+
+.cuenta-gratis {
+ padding: 0.5rem 0;
+}
+
+.formulario input {
+ width: 50%;
+ display: block;
+ margin: auto;
+ margin-bottom: 1rem;
+ background-color: transparent;
+ border: none;
+ border-bottom: white thin solid;
+ text-align: center;
+ outline: none;
+ padding: .2rem 0;
+ font-size: .9rem;
+ color: white;
+}
+
+.formulario input[type="button"] {
+ width: 50%;
+ margin: auto;
+ border: solid thin white;
+ padding: .5rem;
+ border-radius: 2rem;
+ background-color: peru;
+ font-weight: 400;
+ margin-top: 3rem;
+ font-size: .8rem;
+ cursor: pointer;
+ color: #FFF5EE;
+}
+
+.sign-in {
+ position: absolute;
+ opacity: 0;
+ visibility: hidden;
+}
+
+.sign-in.active {
+ opacity: 1;
+ visibility: visible;
+}
+
+.sign-up.active {
+ opacity: 0;
+ visibility: hidden;
+}    
+
+@media all and (max-width: 800px){
+	seccion{
+		flex-direction: column;
+		height: auto;
+	}
+}	
+
